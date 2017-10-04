@@ -1,0 +1,243 @@
+@media screen and (min-width: 767px) {
+
+body {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "メイリオ", Meiryo, Roboto, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background-color: #ffffff;
+	font-size: 16px;
+}
+
+/* リセット */
+h1,h2,h3,h4,h5,p {
+	margin: 0;
+	padding: 0;
+}
+
+.liner {
+	background: -moz-linear-gradient(transparent 60%, #ffff99 0%);      /* Firefox用 */
+ 	background: -webkit-linear-gradient(transparent 60%, #ffff99 0%);   /* Safari用 */
+ 	background: -ms-linear-gradient(transparent 60%, #ffff99 0%);       /* IE用 */
+ 	background: -o-linear-gradient(transparent 60%, #ffff99 0%);        /* Opera用 */
+ 	background: linear-gradient(transparent 60%, #ffff99 0%);           /* Default */
+}
+
+/* ヘッダー */
+#header {
+	width: 1000px;
+	margin: 0 auto;
+	height: 90px;
+	position: relative;
+}
+
+#header .logo{
+	position: absolute;
+	left: 0;
+	top: 11px;
+}
+
+#header .form_button {
+	position: absolute;
+	right: 0;
+	top: 20px;
+}
+
+/* メインイメージ */
+#main {
+	width: 100%;
+	margin-top: -10px;
+}
+
+#main_sp {
+	display: none;
+}
+
+#main .image{
+	min-width: 1280px;
+}
+
+#main .image img{
+	width: 100%;
+}
+
+
+/* frame1 */
+#frame1 {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 50px 0px;
+}
+
+#frame1 .title{
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+#frame1 .title h2{
+	font-size: 32px;
+	font-weight: bold;
+	color: #1d325e;
+}
+
+#frame1 li {
+	width: 333px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+}
+
+#frame1 .name {
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+
+#frame1 .text {
+	width: 300px;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+/* frame15 */
+#frame15 {
+	width: 100%;
+	margin: 0px auto;
+	background-color: #ffffe9;
+	padding: 50px 0px;
+}
+
+#frame15 .title{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#frame15 .title h2{
+	font-size: 32px;
+	font-weight: bold;
+	color: #1d325e;
+}
+
+#frame15 .graff{
+	width: 100%;
+	text-align: center;
+}
+
+/* frame2 */
+#frame2 {
+	width: 100%;
+	margin: 0px auto;
+	background-color: #d4f7ff;
+	padding: 50px 0px;
+}
+
+#frame2 .title{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#frame2 .title h2{
+	font-size: 32px;
+	font-weight: bold;
+	color: #1d325e;
+}
+
+#frame2 .graff{
+	width: 100%;
+	text-align: center;
+}
+
+
+/* frame3 */
+#frame3 {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 50px 0px;
+}
+
+#frame3 .title{
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+#frame3 .title h2{
+	font-size: 32px;
+	font-weight: bold;
+	color: #1d325e;
+}
+
+#frame3 .table {
+	width: 700px;
+	margin: 0 auto;
+	border: solid 1px #1d325e;
+	border-collapse: collapse;
+	font-size: 20px;
+}
+
+#frame3 .left {
+	width: 180px;
+	padding: 10px;
+	background-color: #d2f5fd;
+	font-weight: bold;
+	color: #1d325e;
+	border: solid 1px #1d325e;
+}
+
+#frame3 .right {
+	width: 480px;
+	padding: 10px;
+	background-color: #fff;
+	font-weight: bold;
+	color: #1d325e;
+	border: solid 1px #1d325e;
+}
+
+#frame3 .text {
+	font-size: 14px;
+	color: #1d325e;
+}
+
+#frame3 .text2 {
+	font-size: 16px;
+	color: #1d325e;
+}
+
+/* form */
+#form {
+	width: 100%;
+	margin: 0 auto 50px; auto;
+	overflow: hidden;
+	background-color: #d2f5fd;
+	padding: 50px 0px;
+}
+
+#form .title{
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+#form .title h2{
+	font-size: 32px;
+	font-weight: bold;
+	color: #1d325e;
+}
+
+#form .inc {
+	width: 300px;
+	margin: 0 auto;
+}
+
+#form .contact {
+	width: 400px;
+	margin: 20px auto;
+}
+
+#footer {
+	width: 100%;
+	padding: 25px 0px;
+	background-color: #e4e4e4;
+	text-align: center;
+	color: #0d2352;
+	font-weight: bold;
+}
+
+}
